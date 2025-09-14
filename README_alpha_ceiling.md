@@ -13,10 +13,11 @@ This project presents a research note exploring the **Alpha Ceiling**: a geometr
 
 ## Main Results
 - **Lemma (α-Ceiling Lemma):**  
-  If (pn, pn+2) is a twin prime and (pk, pk+gk) is any later consecutive prime pair, then  
-  αk > αn ; pk > (pn)(gk)/2. 
+  If (pn, pn+2) is a twin prime and (pk, pk+gk) is any later consecutive prime pair, if  
+  αk > αn, then
+  pk > (pn)(gk)/2. 
 
-   *Remark:* By Bertrand–Chebyshev’s theorem, there is always a prime below this threshold, giving primes the *opportunity* not to break the ceiling.  
+  *Remark:* By Bertrand–Chebyshev’s theorem, there is always a prime below this threshold, giving primes the *opportunity* not to break the ceiling.  
 
 - **Computations:** Verified up to large bounds, showing no ceiling violations. Twin primes are the only α-record breakers in all checked ranges.  
 
