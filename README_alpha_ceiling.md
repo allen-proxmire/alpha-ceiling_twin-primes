@@ -32,7 +32,7 @@ This project presents a research note exploring the **Alpha Ceiling**: a geometr
     For any twin prime pair (pn, pn + 2) with pn > 5, let (pm, pm + 2) be the next twin prime pair. Then
 pm − pn ≤ pn.
 
-Equivalently, the distance between consecutive twin primes never exceeds the smaller twin’s first prime for pn > 5
+   Equivalently, the distance between consecutive twin primes never exceeds the smaller twin’s first prime for pn > 5
 
 ## Repository Contents
 - 📄 **alpha_ceiling_twin_primes.docx** — Main paper (Google Docs compatible)  
