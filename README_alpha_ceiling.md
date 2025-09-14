@@ -7,16 +7,14 @@
 This project presents a research note exploring the **Alpha Ceiling**: a geometric property of consecutive primes based on **prime triangles**.  
 
 ## Key Ideas
-- **Prime Triangle:** Right triangle formed from a consecutive prime pair \((p_n, p_{n+1})\).  
-- **Alpha Angle (α):** Defined as \(\alpha = \arctan(p_n / p_{n+1})\).  
-- **Twin Prime Ceiling:** For any twin prime pair \((p_n, p_n+2)\), all consecutive primes between it and the next twin have strictly smaller α values. Twin primes thus set local **α-ceilings**.  
+- **Prime Triangle:** Right triangle formed from a consecutive prime pair (pn, pn+1).  
+- **Alpha Angle (α):** Defined as alpha = arctan(pn / pn+1).  
+- **Twin Prime Ceiling:** For any twin prime pair (pn, pn+2), all consecutive primes between it and the next twin have strictly smaller α values. Twin primes thus set local **α-ceilings**.  
 
 ## Main Results
 - **Lemma (α-Ceiling Lemma):**  
-  If \((p_n, p_n+2)\) is a twin prime and \((p_k, p_k+g_k)\) is any later consecutive prime pair, then  
-  \[
-  \alpha_k > \alpha_n \;\;\Rightarrow\;\; p_k > \frac{p_n g_k}{2}.
-  \]  
+  If (pn, pn+2) is a twin prime and (pk, pk+gk) is any later consecutive prime pair, then  
+  alpha_k > alpha_n ; pk > (pn)(gk)/2. 
   *Remark:* By Bertrand–Chebyshev’s theorem, there is always a prime below this threshold, giving primes the *opportunity* not to break the ceiling.  
 
 - **Computations:** Verified up to large bounds, showing no ceiling violations. Twin primes are the only α-record breakers in all checked ranges.  
@@ -26,10 +24,9 @@ This project presents a research note exploring the **Alpha Ceiling**: a geometr
    Twin primes always set unbroken α-ceilings until the next twin prime appears.  
 
 2. **Second α-Ceiling Conjecture**  
-   For any consecutive prime pair \((p_k, p_{k+1})\) occurring between twin primes \((p_n, p_n+2)\) and \((p_m, p_m+2)\), the α-angle satisfies  
-   \[
-   \alpha_k \le \alpha_n.
-   \]  
+   For any consecutive prime pair (pk, pk+1) occurring between twin primes (pn, pn+2) and (pm, pm+2), the α-angle satisfies  
+   \alpha_k ≥ alpha_n.
+    
    That is, **no intermediate consecutive prime pair exceeds the α-angle of the preceding twin prime**.  
 
 ## Repository Contents
