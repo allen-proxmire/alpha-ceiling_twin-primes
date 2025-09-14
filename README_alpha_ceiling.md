@@ -8,13 +8,13 @@ This project presents a research note exploring the **Alpha Ceiling**: a geometr
 
 ## Key Ideas
 - **Prime Triangle:** Right triangle formed from a consecutive prime pair (pn, pn+1).  
-- **Alpha Angle (α):** Defined as alpha = arctan(pn / pn+1).  
+- **Alpha Angle (α):** Defined as α = arctan(pn / pn+1).  
 - **Twin Prime Ceiling:** For any twin prime pair (pn, pn+2), all consecutive primes between it and the next twin have strictly smaller α values. Twin primes thus set local **α-ceilings**.  
 
 ## Main Results
 - **Lemma (α-Ceiling Lemma):**  
   If (pn, pn+2) is a twin prime and (pk, pk+gk) is any later consecutive prime pair, then  
-  alpha_k > alpha_n ; pk > (pn)(gk)/2. 
+  αk > αn ; pk > (pn)(gk)/2. 
   *Remark:* By Bertrand–Chebyshev’s theorem, there is always a prime below this threshold, giving primes the *opportunity* not to break the ceiling.  
 
 - **Computations:** Verified up to large bounds, showing no ceiling violations. Twin primes are the only α-record breakers in all checked ranges.  
@@ -25,7 +25,7 @@ This project presents a research note exploring the **Alpha Ceiling**: a geometr
 
 2. **Second α-Ceiling Conjecture**  
    For any consecutive prime pair (pk, pk+1) occurring between twin primes (pn, pn+2) and (pm, pm+2), the α-angle satisfies  
-   \alpha_k ≥ alpha_n.
+   αk ≥ αn.
     
    That is, **no intermediate consecutive prime pair exceeds the α-angle of the preceding twin prime**.  
 
