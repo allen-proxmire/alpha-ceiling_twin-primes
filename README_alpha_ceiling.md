@@ -15,19 +15,24 @@ This project presents a research note exploring the **Alpha Ceiling**: a geometr
 - **Lemma (α-Ceiling Lemma):**  
   If (pn, pn+2) is a twin prime and (pk, pk+gk) is any later consecutive prime pair, then  
   αk > αn ; pk > (pn)(gk)/2. 
-  *Remark:* By Bertrand–Chebyshev’s theorem, there is always a prime below this threshold, giving primes the *opportunity* not to break the ceiling.  
+
+   *Remark:* By Bertrand–Chebyshev’s theorem, there is always a prime below this threshold, giving primes the *opportunity* not to break the ceiling.  
 
 - **Computations:** Verified up to large bounds, showing no ceiling violations. Twin primes are the only α-record breakers in all checked ranges.  
 
 ## Conjectures
 1. **Twin Prime α-Ceiling Conjecture**  
    Twin primes always set unbroken α-ceilings until the next twin prime appears.  
-
-2. **Second α-Ceiling Conjecture**  
    For any consecutive prime pair (pk, pk+1) occurring between twin primes (pn, pn+2) and (pm, pm+2), the α-angle satisfies  
    αk ≥ αn.
     
-   That is, **no intermediate consecutive prime pair exceeds the α-angle of the preceding twin prime**.  
+   That is, **no intermediate consecutive prime pair exceeds the α-angle of the preceding twin prime**
+
+2. **Twin Prime Gap Bound Conjecture**  
+    For any twin prime pair (pn, pn + 2) with pn > 5, let (pm, pm + 2) be the next twin prime pair. Then
+pm − pn ≤ pn.
+
+Equivalently, the distance between consecutive twin primes never exceeds the smaller twin’s first prime for pn > 5
 
 ## Repository Contents
 - 📄 **alpha_ceiling_twin_primes.docx** — Main paper (Google Docs compatible)  
