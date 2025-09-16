@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17049966.svg)](https://doi.org/10.5281/zenodo.17049966)
+
 # The Alpha Ceiling and Twin Prime Distribution
 
 **Author:** Allen Proxmire  
