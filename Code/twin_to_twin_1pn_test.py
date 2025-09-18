@@ -67,8 +67,8 @@ def find_twin_gaps(start: int = 1, end: int = 100_000, segment_size: int = 100_0
 
 if __name__ == "__main__":
     # Adjustable range and segment size
-    START = 7
-    END = 5_000_000_000
+    START = 15_000_000_000
+    END = 25_000_000_000
     SEGMENT_SIZE = 100_000_000
 
     find_twin_gaps(START, END, SEGMENT_SIZE)
